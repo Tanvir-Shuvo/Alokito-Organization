@@ -199,56 +199,9 @@ p {
 /***** Header End*****/
 /******************/
 
-/***** Awerness top  *****/
-.awernessTop-wrap {
-  background-color: bisque;
-}
-/***** Awerness Programs *****/
-.awernessPro-wrap {
-  margin-top: 1.5rem;
-}
-.awernessPro-social {
-  background-color: whitesmoke;
-}
-.awernessPro-box {
-  padding: 1rem 0;
-}
-.awernessPro-img img {
-  max-width: 100%;
-  height: auto;
-}
-.awernessPro-txt {
-  padding: 0;
-}
-.awernessPro-txt h4 {
-  font-size: 20px;
-}
-.awernessPro-txt p {
-  font-size: 14px;
-  line-height: 1.4;
-  margin-bottom: 5px;
-}
-.awernessPro-txt a {
-  text-decoration: none;
-  font-size: 15px;
-}
-/***** join and donate *****/
-.join-wrap {
-  margin: 3rem 0;
-  padding: 2rem 0;
-  background-color: azure;
-}
-.join-box {
-  text-align: center;
-}
-.donate-box {
-  text-align: center;
-}
-
 /******************/
-/**** Footer******/
-/*****************/
-
+/***** Footer Start *****/
+/******************/
 .footer-wrap {
   background-color: #004b87;
   padding-top: 2rem;
