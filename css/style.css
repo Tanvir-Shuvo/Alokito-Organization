@@ -200,6 +200,56 @@ p {
 /******************/
 
 /******************/
+/***** Content Start *****/
+/******************/
+
+/***** About Section Start *****/
+.about-wrap {
+  padding: 2rem 0;
+}
+.homeAbout-title {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.homeAbout-par {
+  display: flex;
+  flex-wrap: wrap;
+}
+.homeAbout-par-1 {
+  padding-right: 2rem;
+}
+.homeAbout-par-2 {
+  padding-right: 2rem;
+}
+.homeAbout-par h3 {
+  text-align: left;
+}
+.homeAbout-par p {
+  text-align: left;
+}
+.homeAbout-author {
+  padding: 10px 0;
+}
+.h-author-bio {
+  line-height: 1;
+  padding: 10px;
+}
+.h-author-img img {
+  border-radius: 3rem;
+}
+.homeAbout-vdo {
+  margin-top: 3rem;
+}
+.homeAbout-vdo iframe {
+  width: 100%;
+  height: 20rem;
+}
+
+/******************/
+/***** Content End *****/
+/******************/
+
+/******************/
 /***** Footer Start *****/
 /******************/
 .footer-wrap {
