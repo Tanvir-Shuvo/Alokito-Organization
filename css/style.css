@@ -152,11 +152,13 @@
 h6 {
   color: #000000;
 }
+/*
 .c-item-box h1,
 h6,
 p {
   text-align: center;
 }
+*/
 
 /***** header media*****/
 
@@ -204,45 +206,116 @@ p {
 /******************/
 
 /***** About Section Start *****/
-.about-wrap {
-  padding: 2rem 0;
+.hAbout-wrap {
+  margin: 2.5rem 0;
 }
-.homeAbout-title {
-  text-align: left;
+.hAbout-title {
   margin-bottom: 1rem;
 }
-.homeAbout-par {
-  display: flex;
-  flex-wrap: wrap;
+.hAbout-author {
+  padding: 0.5rem 0;
+  align-items: center;
 }
-.homeAbout-par-1 {
-  padding-right: 2rem;
-}
-.homeAbout-par-2 {
-  padding-right: 2rem;
-}
-.homeAbout-par h3 {
-  text-align: left;
-}
-.homeAbout-par p {
-  text-align: left;
-}
-.homeAbout-author {
-  padding: 10px 0;
-}
-.h-author-bio {
-  line-height: 1;
-  padding: 10px;
-}
-.h-author-img img {
+.hAbout-author-img img {
   border-radius: 3rem;
 }
-.homeAbout-vdo {
-  margin-top: 3rem;
+.hAbout-author-bio h4 {
+  margin: 0;
 }
-.homeAbout-vdo iframe {
+.hAbout-author-bio p {
+  margin: 0;
+}
+.hAbout-author-sig {
+  text-align: center;
+}
+.hAbout-button {
+  margin: 1.5rem 0;
+}
+.hAbout-button a {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.hAbout-button a:hover {
+  background-color: #004b87;
+}
+.hAbout-video iframe {
   width: 100%;
   height: 20rem;
+}
+/***** Activity Section Start *****/
+.hActivity-wrap {
+  background-color: #f3f3f3;
+  padding: 2rem 0;
+}
+.hActivity-title-box {
+  margin-bottom: 1.5rem;
+}
+.hActivity-title-btn {
+  text-align: end;
+}
+.hActivity-title-btn a {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.hActivity-title-btn a:hover {
+  background-color: #004b87;
+}
+.hActivity-inner-img img {
+  width: 100%;
+}
+.hActivity-inner-txt {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+.hActivity-inner-txt a {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.hActivity-inner-txt a:hover {
+  background-color: #004b87;
+}
+/***** Volunteer Section *****/
+.hVolunteer-wrap {
+  background-color: #004b87;
+  padding: 4rem 0;
+  color: #ffffff;
+}
+.hVolunteer-btn a{
+  text-decoration: none;
+  background: #ffffff;
+  color: #00355f;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.hVolunteer-btn a:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+/***** Newletter Section *****/
+.hNewslwtter-wrap {
+  margin: 2rem 0;
+}
+.hNewslwtter-btn {
+  text-align: end;
+}
+.hNewslwtter-btn a {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.hNewslwtter-btn a:hover {
+  background-color: #004b87;
 }
 
 /******************/
