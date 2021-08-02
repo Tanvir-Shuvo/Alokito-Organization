@@ -283,20 +283,74 @@ p {
 .hActivity-inner-txt a:hover {
   background-color: #004b87;
 }
+/***** News Secton *****/
+.hNews-tab-box ul {
+  margin-bottom: 10px;
+  background-color: #00355f;
+}
+.hNews-tab-box .nav-item .nav-link {
+  color: #ffffff;
+}
+.hNews-tab-box .nav-item .nav-link:focus {
+  border-radius: 0;
+}
+.hNews-newsBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #f3f3f3;
+}
+.hNews-img img {
+  width: 150px;
+}
+.hNews-title {
+  padding: 10px 15px;
+}
+.hNews-title a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+.hNews-more-box h2 {
+  color: #000000;
+  margin-bottom: 1rem;
+  padding-bottom: 10px;
+  border-bottom: 3px double #000000;
+}
+.hNews-more-box ul {
+  list-style: none;
+  padding: 0;
+}
+.hNews-more-box ul li {
+  padding: 5px 0;
+}
+.hNews-more-box ul li:hover {
+  background-color: #004b87;
+}
+.hNews-more-box ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.hNews-more-box ul li a:hover {
+  color: #ffffff;
+}
+
 /***** Volunteer Section *****/
 .hVolunteer-wrap {
   background-color: #004b87;
   padding: 4rem 0;
   color: #ffffff;
 }
-.hVolunteer-btn a{
+.hVolunteer-btn a {
   text-decoration: none;
   background: #ffffff;
   color: #00355f;
   padding: 10px 15px;
   font-size: 18px;
 }
-.hVolunteer-btn a:hover{
+.hVolunteer-btn a:hover {
   background-color: #000000;
   color: #ffffff;
 }
