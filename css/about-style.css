@@ -20,7 +20,6 @@
   color: #000000;
   background-color: #ffffff;
   padding: 0.5rem 1.5rem;
-  border-radius: 5px;
   font-weight: 500;
 }
 
@@ -56,7 +55,7 @@
 
 /***** Navbar *****/
 .navbar-wrap {
-  background-color: #00355f;
+  background-color: #004b87;
 }
 .nav-row {
   align-items: center;
@@ -78,7 +77,7 @@
   box-shadow: none;
 }
 .navbar-nav .nav-item:hover {
-  background-color: #004b87;
+  background-color: #00355f;
 }
 .navbar-nav .nav-link {
   color: #ffffff;
@@ -148,14 +147,11 @@
 .c-item-box .btn:hover {
   background-color: #004b87;
 }
-.c-item-box h1,
-h6 {
+.c-item-box h1 {
   color: #000000;
 }
-.c-item-box h1,
-h6,
-p {
-  text-align: center;
+.c-item-box h6 {
+  color: #000000;
 }
 
 /***** header media*****/
@@ -170,8 +166,10 @@ p {
     text-align: center;
   }
   .top-donate {
-    text-align: center;
     padding: 5px 0;
+  }
+  .top-donate p {
+    text-align: center;
   }
   .brand-logo {
     text-align: center;
@@ -186,6 +184,18 @@ p {
   .carousel-item {
     height: 250px;
   }
+  .c-item-box h1 {
+    font-size: 2rem;
+  }
+  .c-item-box h6 {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .c-item-box .btn {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 0;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .navbar-nav .nav-link {
@@ -199,35 +209,40 @@ p {
 /***** Header End*****/
 /******************/
 
+/*******************/
+/*****Content Area *****/
+/*******************/
 
 /***** about Wrap *****/
-
+.about-wrap {
+  padding: 3rem 0;
+}
 .about-box {
-  padding: 2rem;
-  background-color: #18a577;
   color: #ffffff;
 }
-.about-box p {
-  margin-bottom: 2rem;
-}
-.about-box .btn {
-  background: #ffffff;
-  border: 2px solid #ffffff;
-  color: gray;
-  border-radius: 15px;
-  padding: 5px 15px;
-  font-size: 15px;
-}
-.about-box .btn:hover {
-  background-color: #18a577;
+.about-box .about-header {
+  font-size: 2.5rem;
   color: #000000;
-  transition: 1s;
+  font-weight: 700;
 }
-
+.about-box p {
+  color: #000000;
+}
+.about-box-list {
+  list-style: none;
+  padding-left: 0;
+}
+.about-box-list li {
+  padding: 5px 0;
+  color: #000000;
+}
 /***** Mission Wrap *****/
-.mission-box {
-  padding: 3rem;
-  text-align: center;
+.mission-wrap{
+  background-color: #004b87;
+}
+.mission-box{
+  padding: 1.5rem 0;
+  border: 1px solid #000000;
 }
 
 /***** Activity Wrap *****/
@@ -272,9 +287,9 @@ p {
   transition: 1s;
 }
 
-/*******************/
-/***** Footer *******/
-/********************/
+/******************/
+/***** Footer Start *****/
+/******************/
 .footer-wrap {
   background-color: #004b87;
   padding-top: 2rem;
@@ -312,7 +327,7 @@ p {
   color: #000000;
 }
 .footer-brand .btn {
-  border-radius: 10px;
+  border-radius: 0;
   padding: 5px 15px;
 }
 .footer-brand .btn:hover {
@@ -377,7 +392,6 @@ p {
 }
 .f-address-link li .fas {
   font-size: 1.5rem;
-  margin-top: 5px;
 }
 .f-address-link span {
   font-size: 16px;
@@ -405,4 +419,21 @@ p {
   text-decoration: none;
   color: #ffffff;
   font-weight: 600;
+}
+@media (max-width: 768px) {
+  .footer-brand {
+    margin-bottom: 1.5rem;
+  }
+  .footer-news {
+    margin-bottom: 1.5rem;
+  }
+  .footer-menu {
+    margin-bottom: 1.5rem;
+  }
+  .copyright-txt p {
+    text-align: center;
+  }
+  .develope-txt p {
+    text-align: center;
+  }
 }
