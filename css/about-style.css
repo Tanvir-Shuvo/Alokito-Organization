@@ -229,39 +229,101 @@
   color: #000000;
 }
 .about-box-list {
-  list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin-left: 1rem;
 }
 .about-box-list li {
-  padding: 5px 0;
+  padding: 10px 5px;
   color: #000000;
+}
+.about-box-list li::marker {
+  position: absolute;
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #00355f;
+  left: 1px;
+}
+.about-box-btn {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.about-box-btn:hover {
+  background-color: #004b87;
+  color: #ffffff;
 }
 /***** Mission Wrap *****/
-.mission-wrap{
-  background-color: #004b87;
+.mission-wrap {
+  background-color: #f3f3f3;
+  padding: 2rem 0;
 }
-.mission-box{
-  padding: 1.5rem 0;
+.mission-box {
+  padding: 1rem;
+  text-align: center;
+}
+.mission-icon i {
+  font-size: 2rem;
   border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 2rem;
+  background-color: #ffffff;
 }
-
-/***** Activity Wrap *****/
-.activity-box img {
-  padding: 0;
-  border: none;
-  border-radius: 0;
+.mission-box h2 {
+  font-weight: 700;
 }
-.activity-box p {
-  margin-top: 1rem;
-  font-size: 15px;
-  color: #000000;
+.mission-number {
+  position: relative;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1em;
+  color: rgba(253, 252, 252, 0.432);
+  font-family: "Montserrat", sans-serif;
 }
-.activity-box a {
+.mission-text {
+  font-size: 14px;
+}
+/***** Event section *****/
+.event-wrap {
+  padding: 3rem 0;
+}
+.event-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.event-box {
+  padding: 1rem;
+}
+.event-date {
+  position: absolute;
+  background-color: #004b87;
+  padding: 15px;
+}
+.event-img-box img {
+  width: 100%;
+}
+.event-txt-title a {
   text-decoration: none;
-  color: #18a577;
-}
-.activity-box a:hover {
   color: #000000;
+}
+.event-txt-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+.event-txt-list li{
+  padding-right: 1rem;
+}
+.event-txt-list li i{
+  padding-right: 10px;
+}
+.event-txt-link{
+  cursor: pointer;
+  color: #00355f;
+  text-decoration: none;
 }
 /***** Volunteer Section*****/
 .volunteer-wrap {
