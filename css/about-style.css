@@ -299,8 +299,18 @@
 }
 .event-date {
   position: absolute;
-  background-color: #004b87;
-  padding: 15px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  opacity: 0.9;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  color: #000000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+}
+.event-date span {
+  color: #000000;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
 .event-img-box img {
   width: 100%;
@@ -308,45 +318,131 @@
 .event-txt-title a {
   text-decoration: none;
   color: #000000;
+  font-weight: 600;
+  font-size: 25px;
+}
+.event-txt-title a:hover {
+  color: #004b87;
 }
 .event-txt-list {
-  list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  list-style: none;
   padding: 0;
 }
-.event-txt-list li{
+.event-txt-list li {
   padding-right: 1rem;
 }
-.event-txt-list li i{
+.event-txt-list li i {
   padding-right: 10px;
 }
-.event-txt-link{
+.event-box p {
+  color: #004b87;
+}
+.event-txt-link {
   cursor: pointer;
-  color: #00355f;
+  color: #000000;
   text-decoration: none;
 }
-/***** Volunteer Section*****/
-.volunteer-wrap {
-  padding: 3rem 0;
-  background-color: #18a577;
+.side-event-title {
+  margin-bottom: 2rem;
+}
+.side-event-title h2 {
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid #000000;
+}
+.side-event-box {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%);
+  padding: 20px 0;
+}
+.side-event-txt h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.side-event-box a {
+  padding: 5px;
+  border: 1px solid #004b87;
+  color: #004b87;
+  text-decoration: none;
+}
+.side-event-box a:hover {
+  color: #000000;
+}
+.side-tag {
+  margin-top: 3rem;
+}
+.side-tag-title {
+  font-weight: 700;
+  line-height: 1.2em;
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+  border-bottom: 1px solid #000000;
+}
+.side-tag-box {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.side-tag-btn {
+  text-decoration: none;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  margin: 0 10px 10px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.side-tag-btn:hover {
+  background-color: #004b87;
   color: #ffffff;
 }
-.volunteer-header h4 {
-  margin-top: 0.5rem;
+
+/***** Volunteer Section*****/
+.aVolunteer-wrap {
+  padding: 1rem 0 2.5rem 0;
 }
-.volunteer-btn {
-  margin-top: 0.2rem;
+.aVolunteer-box {
+  background-color: #f3f3f3;
+  padding: 2.15rem 0;
 }
-.volunteer-btn .btn {
-  background: #ffffff;
-  border: 2px solid #ffffff;
-  color: gray;
-  border-radius: 15px;
-}
-.volunteer-btn .btn:hover {
-  background-color: #18a577;
+.aVolunteer-head {
   color: #000000;
-  transition: 1s;
+  font-weight: 700;
+}
+.aVolunteer-txt {
+  color: #000000;
+  font-weight: 700;
+}
+.aVolunteer-btn a {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.aVolunteer-btn a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.aVolunteer-social-box {
+  padding: 2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+.aVolunteer-social-box h1 {
+  color: #000000;
+  font-weight: 700;
+}
+.aVolunteer-social-box a {
+  font-size: 3rem;
+  color: #00355f;
+  margin-right: 0.7rem;
+}
+.aVolunteer-social-box a:hover {
+  color: #000000;
 }
 
 /******************/
