@@ -257,12 +257,14 @@
 }
 /***** Mission Wrap *****/
 .mission-wrap {
-  background-color: #f3f3f3;
+  background-color: #00355f;
   padding: 2rem 0;
 }
 .mission-box {
   padding: 1rem;
   text-align: center;
+  background-color: #f3f3f3;
+  box-shadow: 0 0.5rem 1rem rgb(243 243 243 / 30%);
 }
 .mission-icon i {
   font-size: 2rem;
@@ -403,9 +405,8 @@
 .aVolunteer-wrap {
   padding: 1rem 0 2.5rem 0;
 }
-.aVolunteer-box {
-  background-color: #f3f3f3;
-  padding: 2.15rem 0;
+.aVolunteer-row {
+  padding: 2rem 0;
 }
 .aVolunteer-head {
   color: #000000;
@@ -427,11 +428,7 @@
   color: #000000;
   border: 1px solid #000000;
 }
-.aVolunteer-social-box {
-  padding: 2rem 0;
-  background-color: #f3f3f3;
-  text-align: center;
-}
+
 .aVolunteer-social-box h1 {
   color: #000000;
   font-weight: 700;
@@ -443,6 +440,25 @@
 }
 .aVolunteer-social-box a:hover {
   color: #000000;
+}
+
+@media (max-width: 768px) {
+  .aVolunteer-social-box {
+    text-align: center;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  .aVolunteer-head {
+    font-size: 30px;
+  }
+  .aVolunteer-txt {
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+  .aVolunteer-social-box h1 {
+    font-size: 30px;
+  }
 }
 
 /******************/
