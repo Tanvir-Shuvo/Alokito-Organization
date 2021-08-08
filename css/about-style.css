@@ -288,6 +288,11 @@
 .mission-text {
   font-size: 14px;
 }
+@media (max-width: 768px){
+  .mission-box{
+    margin-bottom: 1rem;
+  }
+}
 /***** Event section *****/
 .event-wrap {
   padding: 3rem 0;

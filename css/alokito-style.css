@@ -56,7 +56,7 @@
 
 /***** Navbar *****/
 .navbar-wrap {
-  background-color: #00355f;
+  background-color: #004b87;
 }
 .nav-row {
   align-items: center;
@@ -78,7 +78,7 @@
   box-shadow: none;
 }
 .navbar-nav .nav-item:hover {
-  background-color: #004b87;
+  background-color: #00355f;
 }
 .navbar-nav .nav-link {
   color: #ffffff;
@@ -148,14 +148,11 @@
 .c-item-box .btn:hover {
   background-color: #004b87;
 }
-.c-item-box h1,
-h6 {
+.c-item-box h1 {
   color: #000000;
 }
-.c-item-box h1,
-h6,
-p {
-  text-align: center;
+.c-item-box h6 {
+  color: #000000;
 }
 
 /***** header media*****/
@@ -199,59 +196,251 @@ p {
 /***** Header End*****/
 /******************/
 
-
 /*********************/
 /***Alokito school***/
 /********************/
 
 /***** school about *****/
-.aps-about-wrap {
-  background-color: grey;
+.asAbout-wrap {
+  background-color: #004b87;
+  padding: 4rem 0;
 }
-.school-about-box {
-  padding: 1rem;
-  text-align: center;
+.asAbout-title {
+  padding: 5px 0;
+}
+.asAbout-title h1 {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.asAbout-title-btn {
+  text-decoration: none;
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+.asAbout-title-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.asAbout-history {
+  padding: 10px 0;
+}
+.asAbout-history h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px;
+}
+.asAbout-history p {
+  color: #ffffff;
+  font-weight: 300;
+}
+.asAbout-mission {
+  padding: 10px 0;
+}
+.asAbout-mission h3 {
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 10px;
+}
+.asAbout-mission p {
+  color: #ffffff;
+  font-weight: 300;
 }
 /***** school programs *****/
-.program-wrap {
-  margin: 2rem 0;
+.asAcademic-wrap {
+  margin: 3rem 0;
 }
-/***** tab menu *****/
-.program-box .nav {
-  margin: 1.5rem 0;
-  justify-content: center;
-}
-
-/***** tab content *****/
-.program-box {
-  text-align: center;
-}
-
-.program-box a {
-  text-decoration: none;
-  color: #ffffff;
-  padding: 7px 10px;
-  border-radius: 20px;
-  background-color: #000000;
-}
-.program-box a:hover {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-
-/***** gallery *****/
-.gallery-header {
-  text-align: center;
+.asAcademic-title {
+  font-weight: 700;
+  padding-bottom: 1rem;
   margin-bottom: 1rem;
+  border-bottom: 1px solid #000000;
 }
-.gallery-img {
-  max-width: 100%;
-  height: auto;
+.asAcademic-school-box {
+  padding: 1rem;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
 }
-.gallery-img:hover {
-  cursor: pointer;
+.asAcademic-school-box img {
+  width: 100%;
 }
+.asAcademic-school-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+.asAcademic-school-box ul span {
+  padding-left: 10px;
+}
+.asAcademic-school-btn {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 8px 10px;
+}
+.asAcademic-school-btn:hover {
+  background-color: #004b87;
+  color: #ffffff;
+}
+.sPrograms-title {
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #000000;
+}
+.sPrograms-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  background: #f3f3f3;
+}
+.sPrograms-box img {
+  width: 100px;
+}
+.sPrograms-txt {
+  text-decoration: none;
+  line-height: 20px;
+  padding: 0 5px;
+  color: #000000;
+  font-weight: 300;
+}
+.sPrograms-txt:hover {
+  color: #004b87;
+}
+.keyword-title {
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #000000;
+}
+.keyword-tag-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.keyword-tag-btn {
+  text-decoration: none;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 5px 5px 5px 0;
+}
+.keyword-tag-btn:hover {
+  background-color: #004b87;
+  color: #ffffff;
+}
+/***** gallery *****/
+.asGallery-wrap {
+  background-color: #f3f3f3;
+  padding: 3rem 0;
+}
+.asGallery-title {
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  padding: 5px 0;
+}
+.asGallery-nav {
+  background-color: #00355f;
+}
+.asGallery-nav .nav-item .nav-link {
+  color: #ffffff;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.asGallery-tab-box {
+  display: flex;
+}
+.asGallery-img-box {
+  background-color: #ffffff;
+  padding: 10px 10px 0 0;
+}
+.asGallery-img-box:last-child {
+  padding-right: 0;
+}
+.asGallery-img-box img {
+  width: 100%;
+}
+
+.asEvent-title {
+  color: #000000;
+  margin-bottom: 0;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  padding: 5px 0;
+  font-weight: 700;
+}
+.asEvent-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.asEvent-box {
+  padding-right: 5px;
+}
+.asEvent-box:last-child {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.asEvent-date {
+  position: absolute;
+  background-color: #f3f3f3;
+  padding: 5px;
+  opacity: 0.9;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: #000000;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 70%);
+}
+.asEvent-date span {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 700;
+}
+.asEvent-img-box img {
+  width: 100%;
+}
+.asEvent-txt-title a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+}
+.asEvent-txt-title a:hover {
+  color: #004b87;
+}
+.asEvent-txt-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+.asEvent-txt-list li {
+  padding-right: 10px;
+}
+.asEvent-txt-list li:last-child {
+  padding-right: 0;
+}
+.asEvent-txt-list li i {
+  padding-right: 5px;
+  font-size: 14px;
+}
+.asEvent-box p {
+  color: #004b87;
+  font-size: 14px;
+}
+.asEvent-txt-link {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 0;
+}
+.asEvent-txt-link:hover {
+  color: #ffffff;
+  background-color: #004b87;
+}
+
 /***** donate for school *****/
 .schoolDonate-wrap {
   padding: 3rem 0;
