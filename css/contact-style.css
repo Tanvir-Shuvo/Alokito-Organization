@@ -150,15 +150,6 @@
 .c-item-box .btn:hover {
   background-color: #004b87;
 }
-.c-item-box h1,
-h6 {
-  color: #000000;
-}
-.c-item-box h1,
-h6,
-p {
-  text-align: center;
-}
 
 /***** header media*****/
 
@@ -201,14 +192,19 @@ p {
 /***** Header End*****/
 /******************/
 
-
 /***** Contact form*****/
+.contact-wrap {
+  padding: 2rem 0;
+}
 .form-wrap {
-  background-color: #18a577;
+  background-color: #004b87;
   padding: 3rem;
 }
-.contact-wrap h3 {
+.form-header {
   color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 .form-group {
   margin-bottom: 0.98rem;
@@ -238,13 +234,17 @@ p {
   transition: 1s;
 }
 
-/***** Contact map*****/
 .getin-touch {
   text-align: center;
   padding: 3rem;
-  font-size: 1.2rem;
   color: #ffffff;
-  background-color: #18a577;
+  background-color: #004b87;
+}
+.getin-touch-header {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 .getin-touch i {
   margin-bottom: 1rem;

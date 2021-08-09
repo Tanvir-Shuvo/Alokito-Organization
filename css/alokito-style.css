@@ -442,27 +442,53 @@
 }
 
 /***** donate for school *****/
-.schoolDonate-wrap {
-  padding: 3rem 0;
-  background-color: #18a577;
+.asNotice-wrap {
+  padding: 2rem 0;
+}
+.asNotice-row {
+  align-items: center;
+  padding: 20px 0;
+  background-color: #f3f3f3;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+.asNotice-donate-box {
+  text-align: center;
+  padding: 10px 0;
+  border-right: 1px dashed #000000;
+}
+.asNotice-donate-box h2 {
+  color: #000000;
+  padding: 5px 0;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.asNotice-donate-btn {
+  text-decoration: none;
+  background: #00355f;
   color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.schoolDonate-header h4 {
-  margin-top: 0.5rem;
+.asNotice-addmission-box {
+  text-align: center;
+  padding: 10px 0;
 }
-.schoolDonate-btn {
-  margin-top: 0.2rem;
-}
-.schoolDonate-btn .btn {
-  background: #ffffff;
-  border: 2px solid #ffffff;
+.asNotice-addmission-box h2 {
   color: #000000;
-  border-radius: 15px;
+  padding: 5px 0;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
-.schoolDonate-btn .btn:hover {
-  background-color: #18a577;
-  color: #000000;
-  transition: 1s;
+.asNotice-addmission-btn {
+  text-decoration: none;
+  background: #00355f;
+  color: #ffffff;
+  padding: 10px 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 /*********************/
@@ -506,7 +532,7 @@
   color: #000000;
 }
 .footer-brand .btn {
-  border-radius: 10px;
+  border-radius: 0;
   padding: 5px 15px;
 }
 .footer-brand .btn:hover {
